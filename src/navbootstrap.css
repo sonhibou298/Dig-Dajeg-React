@@ -1,0 +1,45 @@
+.navbar-default {
+    background: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .075);
+    border: none;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+.navbar-default .navbar-brand {
+    color: #393939;
+    font-weight: 500;
+}
+
+.navbar-default .navbar-brand .fa {
+    color: #16a085;
+}
+
+.navbar-default .navbar-nav li.appointment-btn {
+    margin: 3px 0 0 10px;
+}
+
+.navbar-default .navbar-nav li.appointment-btn a {
+    background: #16a085;
+    border-radius: 3px;
+    color: #ffffff;
+    font-weight: 600;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.navbar-default .navbar-nav li.appointment-btn a:hover {
+    background: #ffffff;
+    color: #16a085 !important;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #555555;
+    font-size: 13px;
+    font-weight: 500;
+    padding-right: 20px;
+    padding-left: 20px;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+}
+
