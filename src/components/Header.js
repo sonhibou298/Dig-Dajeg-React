@@ -1,5 +1,5 @@
 import React from 'react';
-import styled from "styled-components";
+
 
 
 const Header = () => {
@@ -18,7 +18,7 @@ const Header = () => {
                         <span className="date-icon"><i
                             className="fa fa-calendar-plus-o"></i> 08:00 - 22:00 (Lun-Sam)</span>
                         <span className="email-icon"><i className="fa fa-envelope-o"></i> <a
-                            href="#">info@healthcenter.com</a></span>
+                            href="#">info@chifaa.com</a></span>
                     </div>
 
                 </div>
