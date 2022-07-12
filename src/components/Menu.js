@@ -1,32 +1,36 @@
-import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import styled from "styled-components";
 
 
-const Menu = () => {
+
+
+function Menu(){
 
     return (
-        <section className="navbar navbar-default navbar-static-top" role="navigation">
-            <div className="container">
+        <Navbar className="topNav" bg="#FFFFFF" expand="lg">
+            <Container>
+                <Navbar.Brand href="#home" className="navbar-brand">
+                    <a href="#" className="navbar-brand"><i className="fa fa-h-square"></i>Dig-dajeg</a>
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="menu me-auto ms-lg-auto ms-md-auto">
+                        <a href="#home">Accueil</a>
+                        <a href="#link">A Propos</a>
+                        <a href="#link">Services</a>
+                        <a href="#link">Blogs</a>
+                        <a href="#link">Contact</a>
+                        <a href="#link" className="btn-medecin">Espace Medecin</a>
+                        <a href="#link" className="btn-patient">Espace Patient</a>
 
-                <div className="navbar-header">
-                    <button className="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span className="icon icon-bar"></span>
-                        <span className="icon icon-bar"></span>
-                        <span className="icon icon-bar"></span>
-                    </button>
-                    <a href="#" className="navbar-brand"><i className="fa fa-h-square"></i>ig-daje</a>
-                </div>
-                <div className="collapse navbar-collapse">
-                    <ul className="nav navbar-nav navbar-right">
-                        <li><a href="#top" className="smoothScroll">Acceuil</a></li>
-                        <li><a href="#about" className="smoothScroll">A Propos</a></li>
-                        <li><a href="#team" className="smoothScroll">Docteurs</a></li>
-                        <li><a href="#news" className="smoothScroll">Info</a></li>
-                        <li><a href="#google-map" className="smoothScroll">Contact</a></li>
-                        <li className="appointment-btn"><a href="#">S'Authentifier</a></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     )
 }
+
 export default Menu;
