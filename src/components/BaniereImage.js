@@ -1,5 +1,5 @@
 import React from 'react';
-const Home = () => {
+const BaniereImage = () => {
 
     return (
         <section id="home" className="slider" data-stellar-background-ratio="0.5">
@@ -20,4 +20,4 @@ const Home = () => {
         </section>
     )
 }
-export default Home;
+export default BaniereImage;

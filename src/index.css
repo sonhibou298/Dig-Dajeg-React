@@ -286,9 +286,9 @@ header span i {
   padding-bottom: 12px;
   height: 40px;
   margin-top: 6px;
-  cursor: pointer;
   margin-left: 15px;
   margin-right: 15px;
+
 }
 .menu .btn-medecin:hover{
   background: #ffffff;
@@ -299,6 +299,7 @@ header span i {
   padding-bottom: 12px;
   height: 40px;
   margin-top: 6px;
+
   
 }
 
@@ -311,7 +312,6 @@ header span i {
   padding-bottom: 12px;
   height: 40px;
   margin-top: 6px;
-  cursor: pointer;
   margin-left: 15px;
 
 }

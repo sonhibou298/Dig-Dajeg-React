@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import styled from "styled-components";
+import {Link} from "react-router-dom";
 
 
 
@@ -18,13 +19,13 @@ function Menu(){
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="menu me-auto ms-lg-auto ms-md-auto">
-                        <a href="#home">Accueil</a>
-                        <a href="#link">A Propos</a>
-                        <a href="#link">Services</a>
-                        <a href="#link">Blogs</a>
-                        <a href="#link">Contact</a>
-                        <a href="#link" className="btn-medecin">Espace Medecin</a>
-                        <a href="#link" className="btn-patient">Espace Patient</a>
+                        <Link to="">Accueil</Link>
+                        <Link to="/#">A Propos</Link>
+                        <Link to="/#">Services</Link>
+                        <Link to="/#">Blogs</Link>
+                        <Link to="/#">Contact</Link>
+                        <Link to="/login" className="btn-medecin" >Espace Medecin</Link>
+                        <Link to="/#" className="btn-patient">Espace Patient</Link>
 
                     </Nav>
                 </Navbar.Collapse>
