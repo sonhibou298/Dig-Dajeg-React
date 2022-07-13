@@ -216,7 +216,13 @@ iframe {
     color: #555555;
     line-height: 1.4;
 }
+.txt4 {
+    font-family: Raleway-Regular;
+    font-size: 13px;
+    color: #555555;
+    line-height: 1.4;
 
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ login ]*/

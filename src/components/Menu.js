@@ -25,7 +25,7 @@ function Menu(){
                         <Link to="/#">Blogs</Link>
                         <Link to="/#">Contact</Link>
                         <Link to="/login" className="btn-medecin" >Espace Medecin</Link>
-                        <Link to="/#" className="btn-patient">Espace Patient</Link>
+                        <Link to="/loginPatient" className="btn-patient">Espace Patient</Link>
 
                     </Nav>
                 </Navbar.Collapse>
