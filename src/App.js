@@ -6,6 +6,7 @@ import {Routes, Route} from "react-router-dom"
 import Home from "./pages/Home";
 import Login from "./components/Login";
 import LoginPatient from "./components/LoginPatient";
+import InscriptionPatient from "./components/InscriptionPatient";
 
 
 
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/login" element={<Login/>}></Route>
           <Route path="/loginPatient" element={<LoginPatient/>}></Route>
+          <Route path="/inscription" element={<InscriptionPatient/>}></Route>
 
       </Routes>
   );

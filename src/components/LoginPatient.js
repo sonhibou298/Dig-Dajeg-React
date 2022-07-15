@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
 const LoginPatient = () => {
 
@@ -52,9 +53,7 @@ const LoginPatient = () => {
                                 </div>
 
                                 <div>
-                                    <a href="#" className="txt4">
-                                        Créer un compte?
-                                    </a>
+                                   <Link to="/inscription" className="txt4">Creer un compte ?</Link>
                                 </div>
                             </div>
 
